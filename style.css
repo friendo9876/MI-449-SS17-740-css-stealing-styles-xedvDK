@@ -1,0 +1,137 @@
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+input[type="search"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+}
+
+input[type="search"]:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
+
+#SearchBarHeader {
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+.LetterS:hover {
+  color: blue;
+}
+
+.LetterE:hover {
+  color: red;
+}
+
+.LetterT:hover {
+  color: #063;
+}
+
+.LetterM:hover {
+  color: magenta;
+}
+
+.LetterI:hover {
+  color: brown;
+}
+
+.LetterG:hover {
+  color: plum;
+}
+
+.LetterN:hover {
+  color: orange;
+}
+
+.LetterA:hover {
+  color: green;
+}
+
+.LetterR:hover {
+  color: lightgrey;
+}
+
+.LetterC:hover {
+  color: purple;
+}
+
+.LetterH:hover {
+  color: yellow;
+}
+
+@media (min-width: 670px) {
+  #intro li:last-child a {
+    color: #7795f8;
+  }
+
+  .common-Button {
+    white-space: nowrap;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 14px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #6772e5;
+    text-decoration: none;
+    transition: all 0.15s ease;
+  }
+
+  .common-Button:hover {
+    color: #7795f8;
+    transform: translateY(-1px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  .common-Button:active {
+    color: #555abf;
+    background-color: #f6f9fc;
+    transform: translateY(1px);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+}
+
+h2 {
+  text-decoration: underline;
+}
