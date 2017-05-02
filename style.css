@@ -51,48 +51,24 @@ input[type="search"]:focus {
   text-decoration: underline;
 }
 
-.LetterS:hover {
-  color: blue;
+.green:hover {
+  color: #98c379;
 }
 
-.LetterE:hover {
-  color: red;
+.blue:hover {
+  color: #56b6c2;
 }
 
-.LetterT:hover {
-  color: #063;
+.yellow:hover {
+  color: #c6ad00;
 }
 
-.LetterM:hover {
-  color: magenta;
+.purple:hover {
+  color: #b400b9;
 }
 
-.LetterI:hover {
-  color: brown;
-}
-
-.LetterG:hover {
-  color: plum;
-}
-
-.LetterN:hover {
-  color: orange;
-}
-
-.LetterA:hover {
-  color: green;
-}
-
-.LetterR:hover {
-  color: lightgrey;
-}
-
-.LetterC:hover {
-  color: purple;
-}
-
-.LetterH:hover {
-  color: yellow;
+.red:hover {
+  color: #c62d48;
 }
 
 @media (min-width: 670px) {
@@ -113,7 +89,7 @@ input[type="search"]:focus {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.025em;
-    color: #6772e5;
+    color: #7795f8;
     text-decoration: none;
     transition: all 0.15s ease;
   }
